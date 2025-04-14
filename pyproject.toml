@@ -1,0 +1,15 @@
+[project]
+name = "explaining-evo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "huggingface-hub>=0.30.2",
+    "biopython>=1.85",
+    "hdbscan>=0.8.40",
+    "tqdm>=4.67.1",
+    "seaborn>=0.13.2",
+    "scikit-learn>=1.6.1",
+    "umap-learn>=0.5.7",
+]
