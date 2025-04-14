@@ -1,0 +1,9 @@
+# Sample configuration for database queries
+# Run with: python -m src.explaining.scripts.query_database --config config/database_query.yaml [command]
+
+# Database settings
+database_url: "postgresql://postgres:postgres@localhost:5432/explainable_evo"
+
+# Query settings
+min_activation: 0.2  # Minimum activation threshold for features
+limit: 20  # Maximum number of results to return 

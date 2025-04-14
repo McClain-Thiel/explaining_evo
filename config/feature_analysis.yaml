@@ -1,0 +1,12 @@
+# Sample configuration for feature analysis
+# Run with: python -m src.explaining.scripts.analyze_features --config config/feature_analysis.yaml [command]
+
+# Database settings
+database_url: "postgresql://postgres:postgres@localhost:5432/explainable_evo"
+
+# Analysis settings
+top_n: 10  # Number of top features to return for similarity search
+n_clusters: 15  # Number of clusters for K-means clustering
+method: "tsne"  # Dimensionality reduction method (pca, tsne, umap)
+n_components: 2  # Number of components for dimensionality reduction
+output_format: "png"  # Output format for visualizations 
